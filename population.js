@@ -98,7 +98,7 @@ function population()
     stroke(45,68,173);
     strokeWeight(6);
     textAlign(CENTER);
-    text(s,windowWidth/2,200);
+    //text(s,windowWidth/2,200);
 
 
     strokeWeight(0.125);
