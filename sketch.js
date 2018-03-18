@@ -125,3 +125,7 @@ function removeWalls(a,b)
     b.walls[0] = false;
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, 300);
+}

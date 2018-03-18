@@ -88,19 +88,8 @@ function population()
     textAlign(CENTER);
   //  textFont(fontBold);
     textStyle(BOLD);
-    text(max.content.join(''),windowWidth/2,windowHeight/5);
+    text(max.content.join(''),width/2,height/2);
     textLeading(30);
-
-
-    s = "Welcome to a weird website!"
-    textSize(40);
-    fill(113,193,242);
-    stroke(45,68,173);
-    strokeWeight(6);
-    textAlign(CENTER);
-    //text(s,windowWidth/2,200);
-
-
     strokeWeight(0.125);
   }
 
