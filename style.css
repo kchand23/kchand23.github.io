@@ -4,7 +4,20 @@
     overflow: hidden;
 }
 
+
+
+#menu-outer {
+}
+
 #nav {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    display: table;
+    text-align: justify;
+    min-width: 500px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +25,11 @@
     background-color: #333;
 }
 
-li {
-    float: left;
+ul#horizontal-list li {
+    display: table-cell;
 }
 
-li a {
+ul#horizontal-list li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +37,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+ul#horizontal-list li a:hover {
     background-color: #111;
 }
