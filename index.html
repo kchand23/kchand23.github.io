@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -24,19 +28,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('/assets/wallpaper_2.jpg');
+    background-image: url('assets/wallpaper_2.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/assets/wallpaper_2.jpg");
+    background-image: url("assets/wallpaper_2.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("/assets/wallpaper_2.jpg");
+    background-image: url("assets/wallpaper_2.jpg");
     min-height: 400px;
 }
 
@@ -149,6 +153,8 @@ body, html {
   </div>
 </div>
 
+
+
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
@@ -157,37 +163,37 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="/assets/dhoni.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="This program is intended as a background process to notify the user whenever a particular batsman is on strike.">
+      <img src="assets/dhoni.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="This program is intended as a background process to notify the user whenever a particular batsman is on strike.">
     </div>
 
     <div class="w3-col m3">
-      <img src="/assets/twitter.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="This project is an attempt to find out if twitter is a reliable source for animal population estimates. I used python twitter API to gather images and analyze them">
+      <img src="assets/twitter.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="This project is an attempt to find out if twitter is a reliable source for animal population estimates. I used python twitter API to gather images and analyze them">
     </div>
 
     <div class="w3-col m3">
-      <img src="/assets/wildbook.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Wildbook project's aim is to use machine learning techniques to identify and detect individual animals from any given picture and use the trained models to estimate animal population counts. My role in one of the project is to refine and provide a training data of sea turtle images set to a neural network to detect and identify them.">
+      <img src="assets/wildbook.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Wildbook project's aim is to use machine learning techniques to identify and detect individual animals from any given picture and use the trained models to estimate animal population counts. My role in one of the project is to refine and provide a training data of sea turtle images set to a neural network to detect and identify them.">
     </div>
 
     <div class="w3-col m3">
-      <img src="/assets/mnist.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A two layered neural network programmed in Python and trained with MNIST dataset, to detect hand written digits with an accuracy of 94%">
+      <img src="assets/mnist.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A two layered neural network programmed in Python and trained with MNIST dataset, to detect hand written digits with an accuracy of 94%">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="/assets/predator_ant.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 2-D simulation of a predator-ant-food which uses Genetic Algortihm and developed in p5.js, which is an extension of processing in javascript.">
+      <img src="assets/predator_ant.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A 2-D simulation of a predator-ant-food which uses Genetic Algortihm and developed in p5.js, which is an extension of processing in javascript.">
     </div>
 
     <div class="w3-col m3">
-      <img src="/assets/Alexa.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A custom Alexa skill built in Python, which gives out the details of professors of UIC on demand. ">
+      <img src="assets/Alexa.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A custom Alexa skill built in Python, which gives out the details of professors of UIC on demand. ">
     </div>
 
     <div class="w3-col m3">
-      <img src="/assets/flickr.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Used Flickr API and Bing API to gather images of reticulated giraffes, filtered them manually and calculated the population estimate of the species using Wildbook API and mark and recapture methods. The estimated count is yet to be verified with official count of alive giraffes.">
+      <img src="assets/flickr.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Used Flickr API and Bing API to gather images of reticulated giraffes, filtered them manually and calculated the population estimate of the species using Wildbook API and mark and recapture methods. The estimated count is yet to be verified with official count of alive giraffes.">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
@@ -209,168 +215,88 @@ body, html {
   </div>
 </div>
 
+
 <section class="cd-timeline js-cd-timeline">
-
-		<div class="cd-timeline__container">
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Title of section 1</h2>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-
-					<span class="cd-timeline__date">Jan 14</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Title of section 2</h2>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-
-					<span class="cd-timeline__date">Jan 18</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Title of section 3</h2>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-
-					<span class="cd-timeline__date">Jan 24</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-
-					<img src="img/cd-icon-location.svg" alt="Location">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Title of section 4</h2>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-
-					<span class="cd-timeline__date">Feb 14</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-
-					<img src="img/cd-icon-location.svg" alt="Location">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Title of section 5</h2>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-
-					<span class="cd-timeline__date">Feb 18</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-
-
-			<div class="cd-timeline__block js-cd-block">
-
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-
-				</div> <!-- cd-timeline__img -->
-
-
-
-				<div class="cd-timeline__content js-cd-content">
-
-					<h2>Final Section</h2>
-
-					<p>This is the content of the last section</p>
-
-					<span class="cd-timeline__date">Feb 26</span>
-
-				</div> <!-- cd-timeline__content -->
-
-			</div> <!-- cd-timeline__block -->
-
-		</div>
-
-	</section> <!-- cd-timeline -->
-
-	
-
+    <div class="cd-timeline__container">
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+          <img src="img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Title of section 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+          <a href="#0" class="cd-timeline__read-more">Read more</a>
+          <span class="cd-timeline__date">Jan 14</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+          <img src="img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Title of section 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+          <a href="#0" class="cd-timeline__read-more">Read more</a>
+          <span class="cd-timeline__date">Jan 18</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+          <img src="img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Title of section 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+          <a href="#0" class="cd-timeline__read-more">Read more</a>
+          <span class="cd-timeline__date">Jan 24</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+          <img src="img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Title of section 4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+          <a href="#0" class="cd-timeline__read-more">Read more</a>
+          <span class="cd-timeline__date">Feb 14</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+          <img src="img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Title of section 5</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+          <a href="#0" class="cd-timeline__read-more">Read more</a>
+          <span class="cd-timeline__date">Feb 18</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+          <img src="img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content js-cd-content">
+          <h2>Final Section</h2>
+          <p>This is the content of the last section</p>
+          <span class="cd-timeline__date">Feb 26</span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+    </div>
+  </section> <!-- cd-timeline -->
+  
 <script src="js/main.js"></script> <!-- Resource JavaScript -->
 
 <!-- Container (Contact Section) -->
