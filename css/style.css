@@ -8,21 +8,6 @@ Primary style
           box-sizing: border-box;
 }
 
-
-a {
-  color: #acb7c0;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-
 /* -------------------------------- 
 
 Patterns - reusable parts of our design
@@ -39,17 +24,7 @@ Patterns - reusable parts of our design
 Vertical Timeline - by CodyHouse.co
 
 -------------------------------- */
-header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
 
-header h1 {
-  color: white;
-  font-size: 1.8rem;
-}
 
 @media only screen and (min-width: 1170px) {
   header {
